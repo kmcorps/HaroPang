@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+				android:text="Previous"
+				android:id="@+id/buttonStage0Prev"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+		       </Button>
+			<Button
+				android:text="Next"
+				android:id="@+id/buttonStage0Next"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+			</Button>
+
+        </LinearLayout>
+    
+	
+    <TextView
+		android:layout_width="wrap_content"
+		android:id="@+id/textViewStage0"
+		android:text="TextView"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge">
+    </TextView>
+    
+    <ImageView 
+        android:id="@+id/Stage0View"
+        android:src="@drawable/lpr0"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </ImageView>
+
+</LinearLayout>
